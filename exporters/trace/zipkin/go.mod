@@ -8,10 +8,10 @@ replace (
 )
 
 require (
-	github.com/google/go-cmp v0.5.2
+	github.com/google/go-cmp v0.5.4
 	github.com/openzipkin/zipkin-go v0.2.4
 	github.com/stretchr/testify v1.6.1
-	go.opentelemetry.io/otel v0.11.0
-	go.opentelemetry.io/otel/sdk v0.11.0
+	go.opentelemetry.io/otel v0.11.0 // indirect
+	go.opentelemetry.io/otel/sdk v0.11.0 // indirect
 	google.golang.org/grpc v1.32.0
 )
