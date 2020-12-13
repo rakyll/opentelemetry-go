@@ -9,6 +9,6 @@ replace (
 )
 
 require (
-	go.opentelemetry.io/otel v0.11.0
+	go.opentelemetry.io/otel v0.15.0 // indirect
 	go.opentelemetry.io/otel/exporters/metric/prometheus v0.11.0
 )
